@@ -1,4 +1,5 @@
 Strip (Reduce) Locale Archive in /usr/lib/locale/
+=================================================
 
 Execute the following commands in numbers below
 
