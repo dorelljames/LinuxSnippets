@@ -1,0 +1,21 @@
+Installing X to a Minimal Installation (RPM Way)
+==================================================
+
+On Fedora 19, install the following RPMs using YUM
+
+Command : yum install package_name
+Where   : package_name is the name of the rpm (ex: xorg-x11-intel)
+
+Example : yum install xorg-x11-intel
+
+1.) yum -y install xorg-x11-twm xorg-x11-drv-nouveau xterm xorg-x11-drv-evdev xorg-x11-drv-keyboard xorg-x11-drv-mouse xorg-x11-fonts-100dpi xorg-x11-server-Xorg xorg-x11-server-common xorg-x11-server-utils xorg-x11-xinit
+
+This will query for dependencies of course.
+
+2.) echo "exec twm" > ~/.xinitrc (Starts TWM when we startx)
+
+3.) yum -y install net-tools (Installs ifconfig and other related stuff)
+
+4.) yum -y install psmisc (Installs killall. Example usage: killall X)
+
+5.) yum -y install metacity (Installs metacity (window manager))
