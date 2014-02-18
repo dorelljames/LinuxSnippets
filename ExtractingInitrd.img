@@ -1,5 +1,5 @@
 # View, Modify and Recreate initrd.img
-######################################
+======================================
 
 # Unpacking to View and/or Modify
 
@@ -22,11 +22,11 @@ bin dev etc init modules proc sbin selinux sys tmp var
 
 # Repacking
 
-1.) find . | cpio --create --format='newc' > /tmp/newinitrd # same dir
+1.) find . | cpio --create --format='newc' > /tmp/newinitrd
 
 2.) gzip newinitrd
-2.a) ls
+2.a) ls /tmp
 
 newinitrd.gz
 
-3.) mv newinitrd.gz initrd.img
+3.) mv /tmp/newinitrd.gz /tmp/initrd.img
