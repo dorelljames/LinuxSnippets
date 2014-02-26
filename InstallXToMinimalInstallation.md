@@ -19,7 +19,7 @@ NOTE: Yum will query for dependencies of course.
 # Additionals
 
 ```bash
-2.) echo "exec twm" > ~/.xinitrc (Starts TWM when we startx)
+2.) echo "exec twm" > ~/.xinitrc # Starts TWM when we startx
 3.) yum -y install net-tools # Installs ifconfig and other related stuff
 4.) yum -y install psmisc # Installs killall. Example usage: killall X
 5.) yum -y install metacity # Installs metacity (window manager)
