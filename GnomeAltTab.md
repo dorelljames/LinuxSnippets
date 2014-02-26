@@ -1,5 +1,4 @@
 # Gnome Alt Tab
-----------------
 
 Execute the following command below:
 
