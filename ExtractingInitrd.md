@@ -1,8 +1,9 @@
 # View, Modify and Recreate initrd.img
-======================================
+---------------------------------------
 
 # Unpacking to View and/or Modify
 
+```bash
 1.) cp /boot/initramfs-{kernel-version}.img /tmp/initrd.img # copy for this example
 2.) cd /tmp
 3.) mv initrd.img initrd.gz # rename to .gz format
@@ -18,10 +19,11 @@ initrd
 9.) ls
 
 bin dev etc init modules proc sbin selinux sys tmp var
-
+```
 
 # Repacking
 
+```bash
 1.) find . | cpio --create --format='newc' > /tmp/newinitrd
 
 2.) gzip newinitrd
@@ -30,3 +32,4 @@ bin dev etc init modules proc sbin selinux sys tmp var
 newinitrd.gz
 
 3.) mv /tmp/newinitrd.gz /tmp/initrd.img
+```
