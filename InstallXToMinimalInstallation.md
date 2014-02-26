@@ -3,10 +3,12 @@ Installing X to a Minimal Installation (RPM Way)
 
 On Fedora 19, install the following RPMs using YUM
 
-Command : yum install package_name
-Where   : package_name is the name of the rpm (ex: xorg-x11-intel)
+```bash
+Command: yum install package_name
+Where: package_name is the name of the rpm (ex: xorg-x11-intel)
 
-Example : yum install xorg-x11-intel
+Example: yum install xorg-x11-intel
+```
 
 ```bash
 1.) yum -y install xterm xorg-x11-twm xorg-x11-drv-nouveau xorg-x11-drv-intel xorg-x11-drv-fbdev xorg-x11-drv-vesa xorg-x11-drv-evdev xorg-x11-drv-keyboard xorg-x11-drv-mouse xorg-x11-fonts-100dpi xorg-x11-server-Xorg xorg-x11-server-common xorg-x11-server-utils xorg-x11-xinit
