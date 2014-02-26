@@ -20,8 +20,8 @@ NOTE: Yum will query for dependencies of course.
 
 ```bash
 2.) echo "exec twm" > ~/.xinitrc (Starts TWM when we startx)
-3.) yum -y install net-tools (Installs ifconfig and other related stuff)
-4.) yum -y install psmisc (Installs killall. Example usage: killall X)
-5.) yum -y install metacity (Installs metacity (window manager))
-6.) yum -y install xterm (Installs xterm)
+3.) yum -y install net-tools # Installs ifconfig and other related stuff
+4.) yum -y install psmisc # Installs killall. Example usage: killall X
+5.) yum -y install metacity # Installs metacity (window manager)
+6.) yum -y install xterm # Installs xterm
 ```
