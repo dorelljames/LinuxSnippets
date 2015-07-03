@@ -14,6 +14,12 @@ Example: yum install xorg-x11-intel
 1.) yum -y install xterm xorg-x11-twm xorg-x11-drv-nouveau xorg-x11-drv-intel xorg-x11-drv-fbdev xorg-x11-drv-vesa xorg-x11-drv-evdev xorg-x11-drv-keyboard xorg-x11-drv-mouse xorg-x11-fonts-100dpi xorg-x11-server-Xorg xorg-x11-server-common xorg-x11-server-utils xorg-x11-xinit
 ```
 
+EDIT: As of July 7, 2015 for Fedora 22 (Use dnf; yum is deprecated. xorg-x11-drv-keyboard & xorg-x11-drv-mouse removed)
+
+```bash
+1.) dnd -y install xterm xorg-x11-twm xorg-x11-drv-nouveau xorg-x11-drv-intel xorg-x11-drv-fbdev xorg-x11-drv-vesa xorg-x11-drv-evdev xorg-x11-fonts-100dpi xorg-x11-server-Xorg xorg-x11-server-common xorg-x11-server-utils xorg-x11-xinit
+```
+
 NOTE: Yum will query for dependencies of course.
 
 # Additionals
